@@ -1,12 +1,11 @@
 package ServeAPI
 
-import "net/http"
-
-// go get github.com/gorilla/mux
+import (
+	"github.com/gorilla/mux"
+	"net/http"
+)
 
 //	"net/http"
-//import (
-//	"get github.com/gorilla/mux"
 //)
 
 http.ListenAndServe(":8181",r)
